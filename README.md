@@ -11,3 +11,6 @@ Convert vortex map data from https://playvortex.io/api/maps to a roblox luau scr
 - Run the command bar script
 
 Reminder that both Vortex and vortex2luau are in their early stages and still need improvement, this will probably need a full recode when studio comes out, as i expect their map system to be handled better.
+
+vortex2luau will remain open-source forever, i have no plans to make it closed-source whatsoever. 
+vortex2luau is soon to be VorTools.
