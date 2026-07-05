@@ -1,16 +1,26 @@
 # vortex2luau
-Convert vortex map data from https://playvortex.io/api/maps to a roblox luau script.
 
-## How to use
-- Make sure you have [python](https://www.python.org/) installed, this is a python based project.
-- Find the map data you want to use (you can get official vortex maps from https://playvortex.io/api/maps/)
-- Copy and paste it into model.json, make sure that the json doesnt look malformed (you may ask ai if you dont know!)
-- Run convert.py, you can do this by double clicking, and if it asks for which app to use, use the app **EXACTLY named "Python"**
-- Open output.txt and copy all of its contents
-- Open roblox studio and paste the output.txt contents into the command bar
-- Run the command bar script
+vortex2luau is a little tool that takes map data from [Vortex](https://playvortex.io) and turns it into a Roblox Luau script, so you can bring Vortex maps into Roblox Studio.
 
-Reminder that both Vortex and vortex2luau are in their early stages and still need improvement, this will probably need a full recode when studio comes out, as i expect their map system to be handled better.
+Heads up: both Vortex and vortex2luau are still pretty early / rough around the edges. Once Vortex Studio actually comes out, this whole thing will probably need a full recode since I'm expecting their map system to be handled way better than it is now.
 
-vortex2luau will remain open-source forever, i have no plans to make it closed-source whatsoever. 
-vortex2luau is soon to be VorTools.
+Also, vortex2luau is and always will be open-source, no plans to ever close it up. It's also getting renamed soon to **VorTools**, so don't be confused if you see that name floating around.
+
+## What you'll need
+
+- [Python](https://www.python.org/) installed
+- Roblox Studio
+- A Vortex map you actually want to convert
+
+## How to use it
+
+1. Grab some map data from `https://playvortex.io/api/maps` (official Vortex maps live here).
+2. Copy that data and paste it into `model.json`. Just make sure the JSON isn't malformed, you can check it with a JSON validator.
+3. Run `convert.py` easiest way is just double-clicking it. If it asks what app to open it with, pick the one called **exactly** "Python."
+4. Open up `output.txt` and copy everything in it.
+5. Pop open Roblox Studio, open the command bar, and paste it in there.
+6. Hit enter and run it, your map should show up.
+
+That's really it. Nothing too fancy, just a quick way to get maps from Vortex into Studio without doing it all by hand.
+
+If something breaks, first thing to check is whether `model.json` is valid that's the most common thing that goes wrong. Otherwise feel free to poke around the code or open an issue.
