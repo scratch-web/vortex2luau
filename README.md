@@ -1,4 +1,5 @@
 # vortex2luau
+## Please use utlitex! This version will no longer recieve updates.
 
 vortex2luau is a little tool that takes map data from [Vortex](https://playvortex.io) and turns it into a Roblox Luau script, so you can bring Vortex maps into Roblox Studio.
 
